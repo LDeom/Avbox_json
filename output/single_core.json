@@ -573,6 +573,16 @@
       "ext": "https://dm84.net"
     },
     {
+      "key": "枫叶影院PY",
+      "name": "枫叶影院",
+      "api": "https://gitee.com/kevin0973/lc/raw/master/lib/%E6%9E%AB%E5%8F%B6%E5%BD%B1%E9%99%A2.py",
+      "filterable": 1,
+      "quickSearch": 1,
+      "searchable": 1,
+      "type": 3,
+      "changeable": 1
+    },
+    {
       "key": "山楂",
       "name": "山楂 • 秒播",
       "type": 3,
