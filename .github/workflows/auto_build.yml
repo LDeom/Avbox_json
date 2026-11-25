@@ -1,8 +1,8 @@
-name: TVBox 终极五合一聚合
+name: TVBox聚合
 
 on:
   schedule:
-    - cron: '0 */12 * * *'
+    - cron: '0 */12 * * *'  # 每12小时执行一次
   workflow_dispatch:
 
 permissions:
@@ -24,13 +24,13 @@ jobs:
       - name: 安装依赖
         run: pip install -r requirements.txt
 
-      - name: 运行聚合引擎
+      - name: 运行【五合一】聚合引擎
         env:
           GITHUB_REPOSITORY: ${{ github.repository }}
         run: python python/ultimate_engine.py
 
-      - name: 自动提交更新
+      - name: 自动提交更新的配置与JAR包
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "Auto Sync: aggregation outputs and JAR"
-          file_pattern: "."
+          commit_message: "Auto Sync: L2深度验活 + JAR私有化更新"
+          file_pattern: "output/* jar/*"
