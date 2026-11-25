@@ -1,24 +1,36 @@
-name: TVBox 五合一聚合
+name: TVBox 终极五合一聚合
+
 on:
   schedule:
     - cron: '0 */12 * * *'
   workflow_dispatch:
+
 permissions:
   contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v4
+      - name: 检出代码
+        uses: actions/checkout@v4
+
+      - name: 设置 Python 环境
+        uses: actions/setup-python@v4
         with:
           python-version: '3.10'
-      - run: pip install -r requirements.txt
-      - name: Run aggregator
+          cache: 'pip'
+
+      - name: 安装依赖
+        run: pip install -r requirements.txt
+
+      - name: 运行聚合引擎
         env:
           GITHUB_REPOSITORY: ${{ github.repository }}
         run: python python/ultimate_engine.py
-      - uses: stefanzweifel/git-auto-commit-action@v5
+
+      - name: 自动提交更新
+        uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "Auto Sync aggregator outputs and JAR"
+          commit_message: "Auto Sync: aggregation outputs and JAR"
           file_pattern: "."
