@@ -1,13 +1,15 @@
-# TVBox 五合一终极聚合矩阵
+# 🚀 TVBox 五合一终极聚合矩阵
 
-自动聚合 TVBox 配置源、关键词过滤、生成单仓/多仓配置及体检报告，并尝试将主 spider JAR 本地化。
+本项目整合多来源 TVBox 配置，定时抓取、筛选并输出聚合配置。
 
-## 自动部署
-- GitHub Actions 每 12 小时运行，并支持手动运行。
-- Settings → Actions → General → Workflow permissions 需允许写入。
-- 成功运行后生成 output 配置和 dashboard，以及 jar/ 目录中的 JAR 文件。
+## 功能
+- 抓取 apilinks.txt 中的配置链接
+- 合并 sites、lives、parses
+- 根据名称关键词过滤部分不需要的站点
+- 检测站点 API 连通性
+- 下载并私有化主 Spider JAR（成功时）
+- 输出单仓、多仓配置与诊断面板
 
-订阅链接：
-`https://ghfast.top/https://raw.githubusercontent.com/LDeom/Avbox_json/main/output/single_core.json`
-
-注意：当前引擎所谓 L2 检查仅是HTTP状态码检查的简化实现，不能保证源实际可播放；关键词过滤也不是全面广告检测，请验证输出。
+## 部署
+GitHub Actions 每12小时自动运行，也支持手动触发。
+仓库 Settings -> Actions -> General 中需允许 Actions 写入内容。
