@@ -1,0 +1,36 @@
+name: TVBox 依赖深度私有化 (JAR/JS/EXT)
+
+on:
+  schedule:
+    - cron: '0 2 * * *'  # 每天运行一次
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v4
+
+      - name: 设置 Python 环境
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+          cache: 'pip'
+
+      - name: 安装依赖
+        run: pip install -r requirements.txt
+
+      - name: 运行深度本地化脚本
+        env:
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: python python/localize.py
+
+      - name: 自动提交下载的资产
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Auto Sync: 私有化最新 JAR/JS/EXT 资源"
+          file_pattern: "output/* jar/* js/* ext/*"
