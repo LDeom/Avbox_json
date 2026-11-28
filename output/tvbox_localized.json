@@ -1,5 +1,5 @@
 {
-  "spider": "https://ghfast.top/https://raw.githubusercontent.com/LDeom/Avbox_json/main/jar/asset_bdf1465a.bin;md5;bdf1465a2a740dd2325a039a46c55043",
+  "spider": "https://ghfast.top/https://raw.githubusercontent.com/LDeom/Avbox_json/main/jar/asset_d8536f0a.bin;md5;d8536f0ad33403ad802af61207a6fa22",
   "wallpaper": "http://127.0.0.1:9978/proxy?do=wallpaper",
   "logo": "https://gh-proxy.org/https://raw.githubusercontent.com/niubihu1/tvbox/main/logo.png",
   "danmaku": "http://127.0.0.1:9978/proxy?do=danmaku&name={name}&episode={episode}",
@@ -32,7 +32,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://ghfast.top/https://raw.githubusercontent.com/LDeom/Avbox_json/main/ext/asset_ab7869d8.bin",
+      "ext": "https://cz01.vip",
       "changeable": 1
     },
     {
@@ -714,7 +714,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://ghfast.top/https://raw.githubusercontent.com/LDeom/Avbox_json/main/ext/asset_764cff05.bin",
+      "ext": "https://ghfast.top/https://raw.githubusercontent.com/LDeom/Avbox_json/main/ext/asset_06c415ae.bin",
       "changeable": 1
     },
     {
@@ -747,7 +747,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "changeable": 1,
-      "ext": "https://ghfast.top/https://raw.githubusercontent.com/LDeom/Avbox_json/main/ext/asset_2a4dd28a.bin"
+      "ext": "https://ghfast.top/https://raw.githubusercontent.com/LDeom/Avbox_json/main/ext/asset_824b2422.bin"
     },
     {
       "key": "枫叶影院PY",
@@ -837,7 +837,7 @@
     },
     {
       "key": "黑狐",
-      "name": "🦊┃黑狐┃影视",
+      "name": "🦊黑狐┃BPQ",
       "type": 3,
       "searchable": 1,
       "quickSearch": 1,
@@ -1016,14 +1016,14 @@
       "changeable": 1
     },
     {
-      "key": "csp_xpath_zxzj2",
-      "name": "在线之家(XPF)",
+      "key": "csp_xpath___在线之家",
+      "name": "在线之家(XP)",
       "type": 3,
-      "api": "csp_XPathFilter",
+      "api": "csp_XPath",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://ghfast.top/https://raw.githubusercontent.com/LDeom/Avbox_json/main/ext/asset_7a986715.json",
+      "ext": "https://ghfast.top/https://raw.githubusercontent.com/LDeom/Avbox_json/main/ext/asset_231560f5.json",
       "changeable": 1
     },
     {
@@ -1774,6 +1774,15 @@
       "changeable": 1
     },
     {
+      "key": "wujin_无尽",
+      "name": "♾️┃无尽┃采集",
+      "type": 1,
+      "api": "https://api.wujinapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    },
+    {
       "key": "ruyi",
       "name": "如意资源",
       "type": 1,
@@ -2134,23 +2143,6 @@
       "api": "https://api.zuidapi.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
-      "changeable": 1
-    },
-    {
-      "key": "iqiyizyapi.com",
-      "name": "🌻爱奇艺🌻",
-      "type": 1,
-      "api": "https://iqiyizyapi.com/api.php/provide/vod/?ac=list",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "original_api": "https://iqiyizyapi.com/api.php/provide/vod",
-      "header": {
-        "User-Agent": "Mozilla/5.0 (Linux; Android 11; SM-G973F) AppleWebKit/537.36",
-        "Accept": "application/json, */*",
-        "Connection": "close"
-      },
-      "ext": "https://ghfast.top/https://raw.githubusercontent.com/LDeom/Avbox_json/main/ext/asset_215d340a.bin",
       "changeable": 1
     },
     {
@@ -2639,16 +2631,6 @@
       "changeable": 0
     },
     {
-      "key": "275听书",
-      "name": "275听书",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/LDeom/Avbox_json/main/js/asset_6a30ae91.py",
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 0,
-      "changeable": 0
-    },
-    {
       "key": "听书网",
       "name": "听书网",
       "type": 3,
@@ -2665,6 +2647,16 @@
       "ext": "https://ghfast.top/https://raw.githubusercontent.com/LDeom/Avbox_json/main/ext/asset_f4a10e32.js",
       "searchable": 1,
       "quickSearch": 0,
+      "changeable": 0
+    },
+    {
+      "key": "275听书",
+      "name": "275听书",
+      "type": 3,
+      "api": "https://gitee.com/kevin0973/lc/raw/master/lib/275%E5%90%AC%E4%B9%A6.py",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0,
       "changeable": 0
     }
   ],
@@ -2722,20 +2714,18 @@
       "ua": "okhttp/3.15"
     },
     {
+      "name": "📡自动更新 ┃ 全国电视",
+      "type": 0,
+      "url": "https://z.szyyds.cn/iptv",
+      "playerType": 1,
+      "ua": "okhttp/3.15"
+    },
+    {
       "name": "🎵音乐台 ┃ 现场MV",
       "type": 0,
       "url": "https://szyyds.cn/tv/live/yy.txt",
       "playerType": 1,
       "ua": "okhttp/3.15"
-    },
-    {
-      "name": "🐎小马综合 ┃ 高清直播",
-      "type": 0,
-      "url": "https://szyyds.cn/tv/live/x.txt",
-      "playerType": 1,
-      "ua": "okhttp/3.15",
-      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
     {
       "name": "feiyang.allinone",
@@ -2785,9 +2775,9 @@
       "url": "Web"
     },
     {
-      "name": "okjx",
+      "name": "诺讯",
       "type": 0,
-      "url": "https://okjx.cc/?url=",
+      "url": "https://www.nxflv.com/?url=",
       "ext": {
         "header": {
           "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
@@ -2805,29 +2795,19 @@
       }
     },
     {
-      "name": "CK",
-      "type": 0,
-      "url": "https://www.ckplayer.vip/jiexi/?url=",
-      "ext": {
-        "header": {
-          "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
-        }
-      }
-    },
-    {
-      "name": "M3U8",
-      "type": 0,
-      "url": "https://jx.m3u8.tv/jiexi/?url=",
-      "ext": {
-        "header": {
-          "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
-        }
-      }
-    },
-    {
       "name": "虾米",
       "type": 0,
       "url": "https://jx.xmflv.com/?url=",
+      "ext": {
+        "header": {
+          "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
+        }
+      }
+    },
+    {
+      "name": "CK",
+      "type": 0,
+      "url": "https://www.ckplayer.vip/jiexi/?url=",
       "ext": {
         "header": {
           "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
@@ -2845,9 +2825,9 @@
       }
     },
     {
-      "name": "盘古",
+      "name": "8090",
       "type": 0,
-      "url": "https://www.playm3u8.cn/jiexi.php?url=",
+      "url": "https://www.8090g.cn/?url=",
       "ext": {
         "header": {
           "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
@@ -2855,9 +2835,9 @@
       }
     },
     {
-      "name": "8090",
+      "name": "盘古",
       "type": 0,
-      "url": "https://www.8090g.cn/?url=",
+      "url": "https://www.playm3u8.cn/jiexi.php?url=",
       "ext": {
         "header": {
           "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
@@ -2885,16 +2865,6 @@
       }
     },
     {
-      "name": "淘片",
-      "type": 0,
-      "url": "https://jx.yparse.com/index.php?url=",
-      "ext": {
-        "header": {
-          "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
-        }
-      }
-    },
-    {
       "name": "夜幕",
       "type": 0,
       "url": "https://yemu.xyz/?url=",
@@ -2905,9 +2875,29 @@
       }
     },
     {
+      "name": "淘片",
+      "type": 0,
+      "url": "https://jx.yparse.com/index.php?url=",
+      "ext": {
+        "header": {
+          "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
+        }
+      }
+    },
+    {
       "name": "ikun",
       "type": 0,
       "url": "https://jx.hls.one/?url=",
+      "ext": {
+        "header": {
+          "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
+        }
+      }
+    },
+    {
+      "name": "咸鱼",
+      "type": 0,
+      "url": "https://jx.xymp4.cc/?url=",
       "ext": {
         "header": {
           "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
